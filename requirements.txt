@@ -28,5 +28,5 @@ visdom
 webrtcvad
 youtube-dl
 wheel==0.35
-pilow==8.3.2
+pillow==8.3.2
 torch==1.10.0
