@@ -23,7 +23,7 @@ import face_detection
 parser = argparse.ArgumentParser()
 
 parser.add_argument('--ngpu', help='Number of GPUs across which to run in parallel', default=1, type=int)
-parser.add_argument('--batch_size', help='Single GPU Face detection batch size', default=16, type=int)
+parser.add_argument('--batch_size', help='Single GPU Face detection batch size', default=3, type=int)
 parser.add_argument("--speaker_root", help="Root folder of Speaker", required=True)
 parser.add_argument("--resize_factor", help="Resize the frames before face detection", default=1, type=int)
 parser.add_argument("--speaker", help="Helps in preprocessing", required=True, choices=["chem", "chess", "hs", "dl", "eh"])
